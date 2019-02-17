@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shsxt.xmjf.server.db.dao.UserDao">
+    <select id="queryUserByUserId" resultType="com.shsxt.xmjf.api.po.User">
+          SELECT id,username userName,mobile
+          FROM bas_user
+          WHERE  id=#{userId} and status=1
+    </select>
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shsxt_xmjf_admin" />
+        <module name="shsxt_xmjf_api" />
+        <module name="shsxt_xmjf_code" />
+        <module name="shsxt_xmjf_commons" />
+        <module name="shsxt_xmjf_server" />
+        <module name="shsxt_xmjf_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="shsxt_xmjf_admin" target="1.7" />
+      <module name="shsxt_xmjf_api" target="1.8" />
+      <module name="shsxt_xmjf_code" target="1.8" />
+      <module name="shsxt_xmjf_commons" target="1.8" />
+      <module name="shsxt_xmjf_par" target="1.5" />
+      <module name="shsxt_xmjf_server" target="1.8" />
+      <module name="shsxt_xmjf_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

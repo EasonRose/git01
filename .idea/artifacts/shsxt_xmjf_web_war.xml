@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shsxt_xmjf_web:war">
+    <output-path>$PROJECT_DIR$/shsxt_xmjf_web/target</output-path>
+    <root id="archive" name="shsxt_xmjf_web.war">
+      <element id="artifact" artifact-name="shsxt_xmjf_web:war exploded" />
+    </root>
+  </artifact>
+</component>
